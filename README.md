@@ -31,7 +31,7 @@ Call up Raycast and search for CodeVar. Input the variable you want to translate
 
 In addition, you can carry a parameter that can be used to query multiple results in a specified format
 
-```
+```ts
 /** The type of query alias */
 export enum CASES_ALIAS  {
   "xt" = "camelCase",
