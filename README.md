@@ -5,6 +5,8 @@
 
 CodeVar is a variable naming tool for [Raycast](https://www.raycast.com/) extensions powered by YouDao translate api.
 
+Based on the git repository changes at [https://github.com/ifyour/code-var](https://github.com/ifyour/code-var)
+
 ### Usage
 
 To use CodeVar, follow these steps:
@@ -22,9 +24,29 @@ npm i && npm run dev
 
 ### Screenshot
 
-Call up Raycast and search for CodeVar. Input the variable you want to translate, and press `Enter` to copy it to the clipboard. Alternatively, you can press `Cmd` + `Enter` to copy and paste it. Enjoy using CodeVar!
+Call up Raycast and search for CodeVar. Input the variable you want to translate, and press `Enter` to copy it to the clipboard. Alternatively, you can press `Cmd` + `Enter` to copy and paste it.
 
-<img src="https://user-images.githubusercontent.com/15377484/226154935-4f1c0052-a8e2-45dc-9cd6-d97dfdf42993.png" width="750px" />
+
+![](https://cdn.jsdelivr.net/gh/wingsheep/FigureBed@master/img/codevar.png)
+
+In addition, you can carry a parameter that can be used to query multiple results in a specified format
+
+```
+/** The type of query alias */
+export enum CASES_ALIAS  {
+  "xt" = "camelCase",
+  "dt" = "pascalCase",
+  "cl" = "constantCase",
+  "xh" = "snakeCase",
+}
+```
+
+![](https://cdn.jsdelivr.net/gh/wingsheep/FigureBed@master/img/xt.png)
+
+![](https://cdn.jsdelivr.net/gh/wingsheep/FigureBed@master/img/xt2.png)
+
+
+ Enjoy using CodeVar!
 
 ### License
 
